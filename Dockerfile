@@ -10,6 +10,6 @@ WORKDIR /root/amanpandey
 RUN pip3 install -U -r requirements.txt
 RUN pip3 install --upgrade Extre
 
-ENV PATH="/home/userbot/bin:$PATH"
+ENV PATH="/home/amanpandey/bin:$PATH"
 
 CMD ["python3","-m","amanpandey"]
