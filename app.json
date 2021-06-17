@@ -27,6 +27,11 @@
       "value": "99999",
       "required": false
     },
+    "UPSTREAM_REPO": {
+      "description": "Do Not Touch",
+      "value": "master",
+      "required": false
+    }
     "PM_PROTECT": {
       "description": "Choose No if you Wont Want.",
       "value": "Yes",
