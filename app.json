@@ -1,6 +1,7 @@
+  
 {
   "name": "EXTREMEPRO 𝚄𝚂𝙴𝚁𝙱𝙾𝚃",
-  "description": "The best USERBOT MADE BY AMANAPNDEY ",
+  "description": "THE BEST USERBOT MADE BY AMANAPNDEY, GODBOYX, NOOB-STRANGER ",
   "logo": "https://telegra.ph/file/75520b56df7b9159438cb.jpg",
     "keywords": [
     "telegram",
@@ -27,46 +28,6 @@
       "value": "99999",
       "required": false
     },
-    "UPSTREAM_REPO": {
-      "description": "Do Not Touch",
-      "value": "master",
-      "required": false
-    }
-    "PM_PROTECT": {
-      "description": "Choose No if you Wont Want.",
-      "value": "Yes",
-      "required": true
-    },
-    "OWNER_ID": {
-      "description": "Add Your Own Id.",
-      "value": "",
-      "required": true
-    },
-    "NEEDIT": {
-      "description": "Dont Touch This Else Your Bot Will Crashed.",
-      "value": "ON",
-      "required": true
-    },
-    "LOAD_MYBOT": {
-      "description": "Dont Touch This Else Your Bot Will Crashed.",
-      "value": "True",
-      "required": true
-    },
-    "CMD_HNDLR": {
-      "description": "This Is Handler For Help Menu.",
-      "value": ".",
-      "required": true
-    },
-    "SUDO_USERS": {
-      "description": "Sudo Users.",
-      "value": "",
-      "required": false
-    },
-    "PMSECURITY": {
-      "description": "Add Your Own Id.",
-      "value": "ON",
-      "required": true
-    },
     "ALIVE_NAME": {
       "description": "Leave As It Is.",
       "value": "Pro User",
@@ -77,7 +38,127 @@
       "value": "999999",
       "required": false
     },
+    "SUDO_USERS": {
+      "description": "SUDO USERS LIST.",
+      "value": "",
+      "required": false
+    },
+    "OWNER_ID": {
+      "description": "ADD YOUR OWN ID.",
+      "value": "",
+      "required": false
+    },
     "APP_ID": {
       "description": "Get this value from my.telegram.org! Putting Others Value may result In Account Ban.",
       "value": ""
     },
+    "REM_BG_API_KEY": {
+      "description": "Required for Removing image background functionality. Get from https://www.remove.bg/",
+      "value": "",
+      "required": false
+    },
+    "API_HASH": {
+      "description": "Get this value from my.telegram.org! Putting Others Value May result In Account Ban.",
+      "value": ""
+    },
+    "PRIVATE_GROUP_BOT_API_ID": {
+      "description": "create a private channel and then type .get_id add that value here for save messages",
+      "value": "999999"
+    },
+    "FBAN_GROUP_ID": {
+      "description": "Go to your group add rose bot type /id and paste here",
+      "value": "999999"
+    },
+    "PRIVATE_GROUP_ID": {
+      "description": "Create a private group add rose bot then type /id. PLUGIN_CHANNEL and PRIVATE_GROUP_ID both values should be same",
+      "value": "99999"
+    },
+    "PLUGIN_CHANNEL": {
+      "description": "Create a private group add rose  then type /id. PLUGIN_CHANNEL and PRIVATE_GROUP_ID both values should be same",
+      "value": "999999"
+    },
+    "STRING_SESSION": {
+      "description": "Get this value by running https://replit.com/@amanpandey7647/Dynamic-USERBOT-String-Session#main.py ",
+      "value": ""
+    },
+    "HEROKU_API_KEY": {
+      "description": "Go to https://dashboard.heroku.com/account, scroll down and press Reveal API.Required for updater to work.",
+      "value": "",
+      "required": true
+    },
+    "HEROKU_APP_NAME": {
+      "description": "The Value of App Name you filled in right on top.Required for updater to work.",
+      "value": "",
+      "required": true
+    },
+    "TG_BOT_TOKEN_BF_HER": {
+      "description": "Needed for inline buttons maker. Make a bot at [BotFather](http://telegram.dog/BotFather) and get the token of your bot. And Don't Forget To Turn on inline Mode on bot settings. Get it.",
+      "value": ""
+    },
+    "CHROME_BIN": {
+      "description": "For Carbon.py. Leave as it is. ",
+      "value": "/app/.apt/usr/bin/google-chrome",
+      "required": false
+    },
+    "CHROME_DRIVER": {
+      "description": "For Carbon.py. Leave as it is. ",
+      "value": "/app/.chromedriver/bin/chromedriver",
+      "required": false
+    },
+    "TG_BOT_USER_NAME_BF_HER": {
+      "description": "Needed for inline buttons maker. Make a bot at [BotFather](http://telegram.dog/BotFather) and get the username of your bot",
+      "value": ""
+    },
+    "NO_OF_BUTTONS_DISPLAYED_IN_H_ME_CMD": {
+      "description": " Set The Amount Of Buttons Displayed In Help Command",
+      "value": "7",
+      "required": true
+    },
+    "NO_OF_COLUMS_DISPLAYED_IN_H_ME_CMD": {
+      "description": "Set The Amount Of Rows You Want To Displayed In Help Command default 2",
+      "value": "5",
+      "required": true
+    },
+    "EMOJI_TO_DISPLAY_IN_HELP": {
+      "description": "Set The emojies You Want to Add In Help Command!!",
+      "value": "❤",
+      "required": true
+    }, 
+    "TZ": {
+      "description": "Required for Correct Time for autopic get from http://www.timezoneconverter.com/cgi-bin/findzone.tzc",
+      "value": "Asia/Kolkata",
+      "required": false
+    },
+    "PM_DATA": {
+      "description": "Type DISABLE if you want to disable pm protection... ",
+      "value": "ENABLE",
+      "required": false 
+    }
+  },
+  "addons": [{
+    "plan": "heroku-postgresql",
+    "options": {
+      "version": "10"
+    }
+  }],
+  "buildpacks": [
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/amivin/aria2-heroku.git"
+    },
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-google-chrome"
+    },
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-chromedriver"
+    },
+    {
+      "url": "https://github.com/opendoor-labs/heroku-buildpack-p7zip"
+    },
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
