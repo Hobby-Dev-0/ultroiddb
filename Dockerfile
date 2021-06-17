@@ -8,7 +8,7 @@ WORKDIR /root/amanpandey
 
 # Install requirements
 RUN pip3 install -U -r requirements.txt
-RUN pip3 install Extre
+RUN pip3 install --upgrade Extre
 
 ENV PATH="/home/userbot/bin:$PATH"
 
