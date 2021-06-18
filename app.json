@@ -29,9 +29,14 @@
       "required": false
     },
     "ALIVE_NAME": {
-      "description": "Leave As It Is.",
-      "value": "Pro User",
+      "description": "Add Your Name Or Username",
+      "value": "",
       "required": false
+    },
+    "EXTREMEPRO_PIC": {
+      "description": "Add Any Pic in Alive in Form Of telegraph media.",
+      "value": "",
+      "required": true
     },
     "PM_PERMIT_GROUP_ID": {
       "description": "Put an Group Id Same As PRIVATE_GROUP_ID Required For Pmpermit plugin.",
