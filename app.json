@@ -32,11 +32,6 @@
       "value": "",
       "required": true
     },
-    "PM_PERMIT_GROUP_ID": {
-      "description": "Put an Group Id Same As PRIVATE_GROUP_ID Required For Pmpermit plugin.",
-      "value": "999999",
-      "required": false
-    },
     "SUDO_USERS": {
       "description": "SUDO USERS LIST.",
       "value": "",
