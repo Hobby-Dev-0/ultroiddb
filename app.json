@@ -1,4 +1,3 @@
-  
 {
   "name": "EXTREMEPRO 𝚄𝚂𝙴𝚁𝙱𝙾𝚃",
   "description": "THE BEST USERBOT MADE BY AMANAPNDEY, GODBOYX, NOOB-STRANGER ",
@@ -46,7 +45,7 @@
     "OWNER_ID": {
       "description": "ADD YOUR OWN ID.",
       "value": "",
-      "required": true
+      "required": false
     },
     "APP_ID": {
       "description": "Get this value from my.telegram.org! Putting Others Value may result In Account Ban.",
@@ -55,8 +54,9 @@
     "API_HASH": {
       "description": "Get this value from my.telegram.org! Putting Others Value May result In Account Ban.",
       "value": ""
+    },
     "STRING_SESSION": {
-      "description": "Get this value by running https://replit.com/@amanpandey7647/Extreme-Pro-Userbot-String-Session#main.py ",
+      "description": "Get this value by running https://replit.com/@amanpandey7647/Dynamic-USERBOT-String-Session#main.py ",
       "value": ""
     },
     "HEROKU_API_KEY": {
