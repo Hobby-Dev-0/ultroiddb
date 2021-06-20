@@ -53,7 +53,7 @@ _set_bot () {
     :.......::::......:::........::..:::::..::........::::.......::::::..:::::
     "
     python3 ../setup/updater.py ../requirements.txt requirements.txt
-    python3 -m amanpandey
+    python3 -m Extre
 }
 
 _set_bot
