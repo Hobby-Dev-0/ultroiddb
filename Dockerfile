@@ -12,4 +12,4 @@ RUN pip3 install --upgrade Extre
 
 ENV PATH="/home/amanpandey/bin:$PATH"
 
-CMD ["python3","-m","amanpandey"]
+CMD ["python3","-m","Extre"]
