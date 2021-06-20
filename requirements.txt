@@ -1,3 +1,4 @@
+Extre==0.6
 Pillow>=5.3.0
 PyGithub
 pygifsicle
