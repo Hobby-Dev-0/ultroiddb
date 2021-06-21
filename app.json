@@ -52,6 +52,11 @@
       "value": "",
       "required": false
     },
+    "MONGO_URI": {
+      "description": "ADD MONGODB URL TO RUN THE BOT GET FROM mongodb.com.",
+      "value": "",
+      "required": true
+    },
     "APP_ID": {
       "description": "Get this value from my.telegram.org! Putting Others Value may result In Account Ban.",
       "value": ""
