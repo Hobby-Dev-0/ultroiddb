@@ -82,4 +82,4 @@ tswift
 telethon==1.21.1
 faker
 google_trans_new
-pip==21.1.2
+pip==21.1.3
