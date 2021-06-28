@@ -47,9 +47,7 @@ _set_bot () {
     "
     python3 ../setup/updater.py ../requirements.txt requirements.txt
     clear_screen()
-    echo "
-    'Starting ExtremePro Userbot
-    "
+    print("\nStarting Extreme Pro Userbot...")
     python3 -m Extre
 }
 
