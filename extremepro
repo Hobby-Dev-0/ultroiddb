@@ -46,9 +46,9 @@ _set_bot () {
     'Setting up our bot
     "
     python3 ../setup/updater.py ../requirements.txt requirements.txt
+    clear
     echo "    Starting Our Bot Now    "
     python3 -m Extre
 }
 
 _set_bot
-clear_screen()
