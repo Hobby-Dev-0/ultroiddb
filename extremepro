@@ -46,8 +46,8 @@ _set_bot () {
     'Setting up our bot
     "
     python3 ../setup/updater.py ../requirements.txt requirements.txt
+    echo "    Starting Our Bot Now    "
     clear_screen()
-    print("\nStarting Extreme Pro Userbot...")
     python3 -m Extre
 }
 
