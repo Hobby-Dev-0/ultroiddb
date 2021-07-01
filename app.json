@@ -47,15 +47,13 @@
             "required": false
         }
     },
-    "formation": {
-        "ultroid": {
-            "quantity": 1,
-            "size": "free"
-        }
+  "addons": [{
+    "plan": "heroku-postgresql",
+    "options": {
+      "version": "10"
     }
-},
-{
-"buildpacks": [
+  }],
+  "buildpacks": [
     {
       "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
     },
