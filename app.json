@@ -53,6 +53,14 @@
             "size": "free"
         }
     }
+}
+
+  },
+  "addons": [{
+    "plan": "heroku-postgresql",
+    "options": {
+      "version": "10"
+    }
   }],
   "buildpacks": [
     {
