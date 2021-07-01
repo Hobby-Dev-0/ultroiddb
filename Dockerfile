@@ -1,7 +1,7 @@
-FROM teamUltroid/ultroid:latest
+FROM teamultroid/ultroid:latest
 
 #clonning repo 
-RUN git clone https://github.com/teamUltroid/ultroid /root/TeamUltroid
+RUN git clone https://github.com/teamultroid/ultroid /root/TeamUltroid
 
 #working directory 
 WORKDIR /root/TeamUltroid
