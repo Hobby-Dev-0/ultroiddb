@@ -1,4 +1,4 @@
-FROM teamultroid/ultroid:latest
+FROM programmingerror/ultroid:b0.1
 
 #clonning repo 
 RUN git clone https://github.com/teamultroid/ultroid /root/TeamUltroid
