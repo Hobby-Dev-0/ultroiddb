@@ -1,1 +1,1 @@
-worker: bash extremepro
+worker: bash ultroid
